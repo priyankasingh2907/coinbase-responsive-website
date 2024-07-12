@@ -38,4 +38,14 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    padding: 2rem;
+    margin-bottom: 2rem;
+    .newsletter {
+      .input-container {
+        flex-direction: row;
+        padding-right: 1rem;
+      }
+    }
+  }
 `;

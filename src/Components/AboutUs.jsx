@@ -35,4 +35,10 @@ export default function AboutUs() {
     </Section>
   );
 }
-const Section = styled.section``;
+const Section = styled.section`
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .title-container {
+      text-align: center;
+    }
+  }
+`;

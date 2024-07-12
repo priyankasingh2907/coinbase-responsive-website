@@ -27,7 +27,7 @@ export default function Home() {
               limits and earn rewards for specific coins.
             </p>
           </div>
-          <div className="button flex gap-1 m">
+          <div className="buttons flex gap-1 m">
             <Button text="Try Now " icon={<FaChevronCircleRight />} />
             <Button text="How it works ?" subdueButton />
           </div>
@@ -38,4 +38,17 @@ export default function Home() {
   );
 }
 
-const Section = styled.section``;
+const Section = styled.section`
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .subtitle {
+      h3 {
+        display: flex;
+      }
+    }
+    .buttons {
+      flex-direction: row;
+      margin: 1rem;
+      gap: 1rem;
+    }
+  }
+`;

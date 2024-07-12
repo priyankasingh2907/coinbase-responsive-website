@@ -114,4 +114,20 @@ const Section = styled.section`
   .red {
     color: var(--red);
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    max-width: 90vw;
+    overflow-y: auto;
+    border-radius: 0;
+    ::-webkit-scrollbar {
+      height: 1px;
+    }
+    .container {
+      width: 780px;
+      .header {
+      }
+      .name {
+        flex-direction: row;
+      }
+    }
+  }
 `;

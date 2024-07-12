@@ -65,4 +65,10 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .services {
+      gap: 3rem;
+      padding: 2rem;
+    }
+  }
 `;

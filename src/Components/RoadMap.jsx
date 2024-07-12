@@ -121,4 +121,17 @@ const Section = styled.section`
       }
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    padding: 2rem;
+    .roadmap {
+      overflow: initial;
+      padding-bottom: 2rem;
+      .map {
+        min-width: none;
+      }
+      .mpa::after {
+        border-top: none;
+      }
+    }
+  }
 `;

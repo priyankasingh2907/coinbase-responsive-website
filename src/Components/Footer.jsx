@@ -131,19 +131,8 @@ const Foot = styled.footer`
       flex-direction: row;
     }
     .upper-footer {
-      margin-top: o;
       grid-template-columns: 1fr;
       gap: 2rem;
-      .brand {
-        text-align: center;
-      }
-      .address > p {
-        text-align: center;
-        font-size: 1.5rem;
-      }
-      .info {
-        text-align: center;
-      }
     }
     .spacemen {
       display: none;
@@ -152,12 +141,6 @@ const Foot = styled.footer`
       img {
         width: 80vw;
       }
-    }
-  }
-  .lower-footer {
-    flex-direction: column;
-    .col2 {
-      flex-direction: column;
     }
   }
 `;

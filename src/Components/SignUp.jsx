@@ -33,4 +33,16 @@ const Section = styled.section`
       height: 100%;
     }
   }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin-bottom: 2rem;
+    .content {
+      padding: 4rem;
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+    .image {
+      display: none;
+    }
+  }
 `;

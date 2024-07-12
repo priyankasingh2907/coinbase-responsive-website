@@ -1,7 +1,3 @@
-export function App() {
-  return (
-    <>
-      <p>hi</p>
-    </>
-  );
+export default function App() {
+  return <div>App</div>;
 }

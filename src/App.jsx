@@ -1,5 +1,6 @@
 import AboutUs from "./Components/AboutUs";
 import DailyPrices from "./Components/DailyPrices";
+import Footer from "./Components/Footer";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
 import NewsLetter from "./Components/NewsLetter";
@@ -18,6 +19,7 @@ export default function App() {
       <SignUp />
       <RoadMap />
       <NewsLetter/>
+      <Footer/>
     </div>
   );
 }

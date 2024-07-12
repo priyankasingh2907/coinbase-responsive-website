@@ -99,3 +99,34 @@ a {
 .text-center {
     text-align: center;
 }
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+    word-spacing: 0.2rem;
+    line-height: 1.8rem;
+}
+
+.half-width {
+    height: 80vh;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: var(--blue);
+}
+
+.m {
+    margin-top: 2rem;
+}

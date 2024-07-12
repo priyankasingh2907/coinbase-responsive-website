@@ -37,8 +37,8 @@ export default function Footer() {
               GyaVast , 18 East 50th Stress, 4th Floor , New York , NY 10022
             </p>
           </div>
-          <div className="info">
-            <span>T : +1-202-555-0184</span>
+          <div className="info ">
+            <span className="m">T : +1-202-555-0184</span>
             <span>E : Hello@crypto.com</span>
           </div>
           <div className="social-icons flex gap-2">
@@ -125,13 +125,25 @@ const Foot = styled.footer`
   }
   @media screen and (min-width: 280px) and (max-width: 1080px) {
     padding: 1rem 2rem;
+    margin: 0;
     .social-icons {
       display: none;
       flex-direction: row;
     }
     .upper-footer {
+      margin-top: o;
       grid-template-columns: 1fr;
       gap: 2rem;
+      .brand {
+        text-align: center;
+      }
+      .address > p {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+      .info {
+        text-align: center;
+      }
     }
     .spacemen {
       display: none;
@@ -140,6 +152,12 @@ const Foot = styled.footer`
       img {
         width: 80vw;
       }
+    }
+  }
+  .lower-footer {
+    flex-direction: column;
+    .col2 {
+      flex-direction: column;
     }
   }
 `;
